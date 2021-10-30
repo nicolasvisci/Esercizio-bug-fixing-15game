@@ -94,7 +94,7 @@ public class Ground {
         if (pI - 1 >= 0) {
             intorno[0] = this.tavolo[pI - 1][pJ];
         }
-        if (pJ - 1 >= 3) {
+        if (pJ - 1 >= 0) {
             intorno[1] = this.tavolo[pI][pJ - 1];
         }
         if (pI + 1 <= 3) {
