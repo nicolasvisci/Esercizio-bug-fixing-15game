@@ -71,7 +71,7 @@ public class Frame extends javax.swing.JFrame {
     private void initLabel() {
         this.tasselli = new JLabel[4][4];
         for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 3; j++) {
+            for (int j = 0; j < 4; j++) {
                 this.tasselli[i][j] = new JLabel();
                 this.tasselli[i][j].setBorder(new LineBorder(Color.BLACK));
                 this.jPanel1.add(this.tasselli[i][j]);
